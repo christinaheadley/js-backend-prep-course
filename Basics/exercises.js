@@ -46,3 +46,46 @@ console.log(thousands);
 // > let thousands = (number - hundreds) / 10
 // > thousands
 // = 4
+
+// Identify the data type for each of the following values:
+
+// ("true");
+// string;
+// false;
+// boolean;
+// 1.5;
+// number;
+// 2;
+// number;
+// undefined;
+// undefined;
+// {
+//   foo: "bar";
+// }
+// Object;
+
+// 4 implicit conversion of numm to string when adding to another string
+
+// 5 Refactor the code from the previous exercise to use explicit coercion, so it logs 15 instead.
+// console.log("5" + 10);
+// console.log(parseInt("5") + 10);
+// OR LS: console.log(Number('5') + 10);
+// Use the template literal syntax along with the expression Number('5') + 10 to log the following sentence to the console:
+
+// The value of 5 + 10 is 15.
+// console.log(`The value of 5 + 10 is ${Number("5") + 10}.`);
+// let foo = ["a", "b", "c"];
+// console.log(foo.length); // => 3
+// console.log(foo[3]);
+// >undefined
+let names = ["asta", "butterscotch", "pudding", "neptune", "darwin"];
+let pets = ["dog", "canary", "cat", "bearded dragon", "fish"];
+Object.fromEntries(names.map((_, i) => [names[i], pets[i]]));
+> 'foo' === 'Foo'
+false
+> parseInt('3.1415')
+3
+12' < '9'
+  ^^^^^
+
+Uncaught SyntaxError: Unexpected string
