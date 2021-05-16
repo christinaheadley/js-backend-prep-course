@@ -23,4 +23,4 @@ let rlSync = require("readline-sync");
 // let firstName = getName("What is your first name? ");
 // let lastName = getName("What is your last name? ");
 // console.log(`Hello, ${firstName} ${lastName}!`);
-//also works with function below other license
+//also works with function below other lines
