@@ -69,14 +69,17 @@
 // console.log("It took " + String(tries) + " tries to get a number greater than 2");
 
 // Reimplement the factorial function from exercise 2 using recursion. Once again, you may assume that the argument is always a positive integer.
+// function fibonacci(number) {
+//   if (number < 2) return number; // 0 if number is 0, 1 if number is 1
+//   return fibonacci(number - 1) + fibonacci(number - 2);
+// }
+// LS solution: function factorial(number) {
+//   if (number === 1) {
+//     return 1;
+//   }
 
-function factorial(number) {
-  let result = 1;
-  for (let counter = number; counter > 0; counter -= 1) {
-    result *= counter;
-  }
-  return result;
-}
+//   return number * factorial(number - 1);
+// }
 
 console.log(factorial(1)); // => 1
 console.log(factorial(2)); // => 2
